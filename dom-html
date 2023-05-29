@@ -1,0 +1,25 @@
+Difference between document and window
+
+
+ Document 
+It represents any HTML document or wed page that is loaded in the browser
+It is loaded inside the window
+It is the object of window
+We can access the document from a window using the window document
+The document is part of browser object model and document object model
+Properties of document object such as title,body etc can also be accessed by a window like this window document title
+example:content  in the window like paragraph,images etc
+
+
+Window 
+It represents a browser window or frame that displays the contents of the webpage 
+It is the very first object that is loaded in the browser
+It is the object that is loaded in the browser 
+Global object, functions and variables of js are members of the window object
+We can access the window from the window only 
+The window is part of BOM not DOM 
+Example : opening new tab 
+                    History
+                    Download 
+                    Email,  etc
+
